@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iupui.cit388.project.controller.OrderProcessingController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="297.0" layoutY="187.0" prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ListView fx:id="orderList" layoutX="32.0" layoutY="105.0" prefHeight="598.0" prefWidth="263.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.4" layoutX="222.0" layoutY="99.0" orientation="VERTICAL" prefHeight="598.0" prefWidth="625.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <TextArea fx:id="orderDetailTextArea" editable="false" layoutX="53.0" layoutY="47.0" prefHeight="293.0" prefWidth="623.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ToolBar prefHeight="55.0" prefWidth="623.0">
+                                <items>
+                                  <Button fx:id="newOrderBtn" mnemonicParsing="false" text="New Order" />
+                                </items>
+                              </ToolBar>
+                              <SplitPane dividerPositions="0.5" layoutX="104.0" layoutY="59.0" orientation="VERTICAL" prefHeight="294.0" prefWidth="623.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="59.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <GridPane layoutX="96.0" layoutY="14.0" prefHeight="141.0" prefWidth="621.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columnConstraints>
+                                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.0" minWidth="10.0" prefWidth="224.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="414.0" minWidth="10.0" prefWidth="397.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+                                              <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <TextField fx:id="addressTxt" prefHeight="25.0" GridPane.columnIndex="1" />
+                                                <ComboBox fx:id="comboItem" prefHeight="39.0" prefWidth="395.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                <Button fx:id="confirmBtn" mnemonicParsing="false" text="Confirm" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                                   <GridPane.margin>
+                                                      <Insets left="335.0" />
+                                                   </GridPane.margin></Button>
+                                                <Button fx:id="addItemBtn" mnemonicParsing="false" text="Add Item" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                <TextField fx:id="quantityTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                <Label text="Address:">
+                                                   <GridPane.margin>
+                                                      <Insets left="175.0" />
+                                                   </GridPane.margin>
+                                                </Label>
+                                                <Label text="Item:" GridPane.rowIndex="1">
+                                                   <GridPane.margin>
+                                                      <Insets left="175.0" />
+                                                   </GridPane.margin>
+                                                </Label>
+                                                <Label text="Quantity:" GridPane.rowIndex="2">
+                                                   <GridPane.margin>
+                                                      <Insets left="175.0" />
+                                                   </GridPane.margin>
+                                                </Label>
+                                             </children>
+                                          </GridPane>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <TextArea fx:id="currentOrderDetailTxt" layoutX="62.0" layoutY="-46.0" prefHeight="141.0" prefWidth="621.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

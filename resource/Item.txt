@@ -1,0 +1,13 @@
+Milk 1.99
+Bread 2.49
+Egg 1.45
+Apple 0.25
+Orange 0.25
+Soya 3.99
+Rice 8.99
+Waffle 2.39
+Soup 2.65
+Beef 11.99
+Sausage 3.99
+Fish 15.99
+Chicken 6.99

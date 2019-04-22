@@ -1,0 +1,53 @@
+4539035473397659 10 2021
+8456 Holly St., Waterloo, IA 50701
+3
+Milk 1
+Sausage 3
+Bread 1
+4485158450527108 1 2021
+67 West Oklahoma Street, Owensboro, KY 42301
+1
+Waffle 3
+4539417653636710 10 2022
+45 Bridge Dr., Lansdale, PA 19446
+2
+Rice 1
+Beef 1
+4485101780047710 10 2023
+284 Buckingham Dr., Groton, CT 06340
+4
+Chicken 1
+Soup 3
+Bread 2
+Egg 1
+4532046184334508 12 2021
+8 Bishop Dr., Shirley, NY 11967
+1
+Egg 1
+5277977702796131 11 2021
+3 W. St Paul Lane Albany, NY 12203
+2
+Bread 2
+Egg 1
+5256559455213814 2 2021
+47 Silver Spear St., Marshfield, WI 54449
+3
+Milk 1
+Bread 2
+Egg 1
+5435229315099654 3 2021
+4 Bow Ridge Court, Oak Ridge, TN 37830
+4
+Milk 1
+Bread 2
+Egg 1
+Soya 1
+5508580113254707 7 2021
+5 SE. Linda Lane, Savannah, GA 31404
+2
+Apple 5
+Orange 5
+5136554709766705 9 2021
+759 Valley View Court, Windsor Mill, MD 21244
+1
+Orange 12

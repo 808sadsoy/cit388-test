@@ -1,0 +1,89 @@
+Item [name=Sausage, price=3.99]
+Item [name=Soya, price=3.99]
+Item [name=Egg, price=1.45]
+Item [name=Orange, price=0.25]
+Item [name=Bread, price=2.49]
+Item [name=Soup, price=2.65]
+Item [name=Apple, price=0.25]
+Item [name=Fish, price=15.99]
+Item [name=Chicken, price=6.99]
+Item [name=Beef, price=11.99]
+Item [name=Milk, price=1.99]
+Item [name=Rice, price=8.99]
+Item [name=Waffle, price=2.39]
+Items Load completed! 
+
+
+
+Sun Mar 17 18:06:01 EDT 2019
+8456 Holly St., Waterloo, IA 50701
+
+OrderLine [itemDescription=Milk, quantity=1, unitPrice=1.99]
+OrderLine [itemDescription=Sausage, quantity=3, unitPrice=3.99]
+OrderLine [itemDescription=Bread, quantity=1, unitPrice=2.49]
+16.450000000000003
+
+Sun Mar 17 18:06:01 EDT 2019
+67 West Oklahoma Street, Owensboro, KY 42301
+
+OrderLine [itemDescription=Waffle, quantity=3, unitPrice=2.39]
+7.17
+
+Sun Mar 17 18:06:01 EDT 2019
+45 Bridge Dr., Lansdale, PA 19446
+
+OrderLine [itemDescription=Rice, quantity=1, unitPrice=8.99]
+OrderLine [itemDescription=Beef, quantity=1, unitPrice=11.99]
+20.98
+
+Sun Mar 17 18:06:01 EDT 2019
+284 Buckingham Dr., Groton, CT 06340
+
+OrderLine [itemDescription=Chicken, quantity=1, unitPrice=6.99]
+OrderLine [itemDescription=Soup, quantity=3, unitPrice=2.65]
+OrderLine [itemDescription=Bread, quantity=2, unitPrice=2.49]
+OrderLine [itemDescription=Egg, quantity=1, unitPrice=1.45]
+21.37
+
+Sun Mar 17 18:06:01 EDT 2019
+8 Bishop Dr., Shirley, NY 11967
+
+OrderLine [itemDescription=Egg, quantity=1, unitPrice=1.45]
+1.45
+
+Sun Mar 17 18:06:01 EDT 2019
+3 W. St Paul Lane Albany, NY 12203
+
+OrderLine [itemDescription=Bread, quantity=2, unitPrice=2.49]
+OrderLine [itemDescription=Egg, quantity=1, unitPrice=1.45]
+6.430000000000001
+
+Sun Mar 17 18:06:01 EDT 2019
+47 Silver Spear St., Marshfield, WI 54449
+
+OrderLine [itemDescription=Milk, quantity=1, unitPrice=1.99]
+OrderLine [itemDescription=Bread, quantity=2, unitPrice=2.49]
+OrderLine [itemDescription=Egg, quantity=1, unitPrice=1.45]
+8.42
+
+Sun Mar 17 18:06:01 EDT 2019
+4 Bow Ridge Court, Oak Ridge, TN 37830
+
+OrderLine [itemDescription=Milk, quantity=1, unitPrice=1.99]
+OrderLine [itemDescription=Bread, quantity=2, unitPrice=2.49]
+OrderLine [itemDescription=Egg, quantity=1, unitPrice=1.45]
+OrderLine [itemDescription=Soya, quantity=1, unitPrice=3.99]
+12.41
+
+Sun Mar 17 18:06:01 EDT 2019
+5 SE. Linda Lane, Savannah, GA 31404
+
+OrderLine [itemDescription=Apple, quantity=5, unitPrice=0.25]
+OrderLine [itemDescription=Orange, quantity=5, unitPrice=0.25]
+2.5
+
+Sun Mar 17 18:06:01 EDT 2019
+759 Valley View Court, Windsor Mill, MD 21244
+
+OrderLine [itemDescription=Orange, quantity=12, unitPrice=0.25]
+3.0
